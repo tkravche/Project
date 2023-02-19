@@ -99,8 +99,7 @@ width: 100%;
    width: 100%;
   }}
   
-  
-.subscribe__info-wrapper {
+  .subscribe__info-wrapper {
   @media screen and (min-width: $desktop) {
     display: flex;
     flex-direction: column;
@@ -108,8 +107,14 @@ width: 100%;
     align-items: center;
     margin-left: 40px;
   }
+  .subscribe__form{
+    @media screen and (min-width: $desktop) {
+      width: 100%;
+    }
+  }
   .subscribe__title {
     display: block;
+    
     margin-bottom: 14px;
     text-align: center;
 
@@ -126,6 +131,7 @@ width: 100%;
   }
   .subscribe__text {
     display: block;
+    width: 100%;
     margin-bottom: 18px;
     text-align: center;
     font-weight: 400;
@@ -145,6 +151,7 @@ width: 100%;
 }
 .subscribe__form__comment {
   display: block;
+  width: 100%;
   margin-bottom: 8px;
 
   font-weight: 500;
@@ -159,14 +166,16 @@ width: 100%;
 }
 .subscribe__form__input {
   display: block;
-  margin-bottom: 28px;
-  padding: 10px 28px 10px 12px;
+  width:100%;
+  height: 35px;
+  margin-bottom: 18px;
   border: 1px solid $secondary-gray-color;
   border-radius: 4px;
   outline: none;
   @media screen and (min-width: $tablet) {
-    padding: 12px 136px 12px 16px;
-  }
+    height: 49px;
+    margin-bottom:28px;
+      }
   &::placeholder {
     font-weight: 500;
     font-size: 12px;
