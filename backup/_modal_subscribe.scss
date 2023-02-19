@@ -221,3 +221,13 @@
     box-shadow: 0px 4px 16px $focus-btn-color-20;
   }
 }
+
+
+        //  <picture class="subscribe__photo">< !-- Desktop screen --><source media="(min-width: 1280px)"
+        //  srcset="./images/subscribe/subscribe_d.jpg, ./images/subscribe/subscribe2@_d.jpg 2x"
+        //  type="image/jpg" />< !-- Tablet screen --><source media="(min-width: 768px)"
+        //  srcset="./images/subscribe/subscribe_t.jpg, ./images/subscribe/subscribe2@_t.jpg 2x"
+        //  type="image/jpg" />< !-- Mobile screen --><source media="(min-width: 320px)"
+        //  srcset="./images/subscribe/subscribe_m.jpg, ./images/subscribe/subscribe2@_m.jpg 2x"
+        //  type="image/jpg" /><img class="card-img" src="./images/subscribe/subscribe_m.jpg"
+        //  alt="Bunch of orange flowers - tulips, roses and others" loading="lazy" /></picture>
