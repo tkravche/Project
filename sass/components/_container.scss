@@ -1,0 +1,16 @@
+.container {
+    /* phone screen (<767px) */
+    max-width: 320px;
+    /* max-width: 480px; */
+    padding: 0 16px;
+    margin: 0 auto;
+  //   tablet screen (>768px)
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding: 0 24px;
+  }
+//   desktop screen (>1280px)
+  @media screen and (min-width: 1280px) {
+    max-width: 1232px;
+  } 
+} 
