@@ -1,7 +1,9 @@
 @import './utils/normalize';
 @import './utils/vars';
+@import './utils/mixin';
 @import './base/reset';
 @import './base/common';
+@import './components/button';
 @import './components/container';
 @import './components/mobile-menu';
 @import './components/header';
