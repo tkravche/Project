@@ -78,7 +78,7 @@
     flex-direction: row;
   }
 }
-.grow {
+.subscribe__photo__wrapper {
   @media screen and (max-width: $pre-desktop) {
     flex-grow: 1;
   }
@@ -91,7 +91,7 @@
     width: 100%;
   }}
   
-.subscribe__flex-container {
+.subscribe__info-wrapper {
   @media screen and (min-width: $desktop) {
     display: flex;
     flex-direction: column;
