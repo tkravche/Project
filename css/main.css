@@ -667,16 +667,16 @@ body {
   pointer-events: none;
 }
 
-.modal {
+.modal.subscribe {
   position: absolute;
   min-height: 380px;
   max-width: 272px;
   width: 100%;
   top: 50%;
   left: 50%;
-  padding: 0px 16px 28px;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
+  padding: 0px 16px 28px;
   background-color: #ffffff;
   -webkit-transition: opacity 150ms ease-in 400ms, -webkit-transform 400ms ease;
   transition: opacity 150ms ease-in 400ms, -webkit-transform 400ms ease;
@@ -684,14 +684,14 @@ body {
   transition: opacity 150ms ease-in 400ms, transform 400ms ease, -webkit-transform 400ms ease;
 }
 @media screen and (min-width: 768px) {
-  .modal {
+  .modal.subscribe {
     min-height: 644px;
     max-width: 588px;
     padding: 0px 118px 40px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .modal {
+  .modal.subscribe {
     min-height: 528px;
     max-width: 860px;
     padding: 0 40px 0 0;
@@ -767,12 +767,6 @@ body {
   }
 }
 @media screen and (min-width: 1280px) {
-  .subscribe__photo {
-    position: relative;
-  }
-}
-
-@media screen and (min-width: 1280px) {
   .subscribe__info-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -829,6 +823,7 @@ body {
     line-height: 1.3125;
   }
 }
+
 .subscribe__form__comment {
   display: block;
   width: 100%;
