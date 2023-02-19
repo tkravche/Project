@@ -662,7 +662,7 @@ body {
           justify-content: center;
   width: 24px;
   height: 24px;
-  background-color: transparent;
+  background-color: yellow;
   fill: #000000;
 }
 .subscribe__close:hover, .subscribe__close__close:focus {
