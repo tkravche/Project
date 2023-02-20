@@ -311,6 +311,10 @@ img {
   height: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
@@ -538,6 +542,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.menu__menu-icon {
+  stroke: white;
 }
 
 .header__menu-btn {
@@ -959,4 +967,66 @@ body {
   background: #FA6F54;
   -webkit-box-shadow: 0px 4px 16px rgba(250, 111, 84, 0.2);
           box-shadow: 0px 4px 16px rgba(250, 111, 84, 0.2);
+}
+
+.delivery__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+@media screen and (min-width: 768px) {
+  .delivery__wrapper {
+    gap: 20px;
+  }
+}
+
+.delivery__number {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .delivery__number {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 1.2307692308;
+  }
+}
+
+.delivery__description {
+  margin-bottom: 22px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2142857143;
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .delivery__description {
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2083333333;
+  }
+}
+
+.delivery__photo {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

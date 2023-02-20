@@ -56,6 +56,7 @@
 }
 .mobile-menu__list {
   margin: auto auto;
+
 }
 .mobile-menu__item {
   &:not(:last-child) {
@@ -69,4 +70,7 @@
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.menu__menu-icon{
+stroke: white;
 }
